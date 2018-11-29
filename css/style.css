@@ -1,0 +1,253 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html, body {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:relative;
+    overflow:auto;
+    font-size: 13px;
+}
+
+
+h1 {
+  margin-top: 20;
+  font-size: 20px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size:30px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  margin-left: 0;
+}
+
+
+.page-header {
+    background-image: url("../images/news.jpg") ;
+    height: 400px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius:0px;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.absolute-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left:10px;
+    font-size:80px;
+}
+
+.item img{
+  width:100%;
+}
+
+
+#article-data {
+  padding: 0px;
+}
+
+#article-data img{
+  display: none;
+  width:100%;
+}
+
+#article-data h3{
+  font-size:10px;
+}
+
+#caritem{
+  color:#eacb04;
+}
+
+#caritem small{
+  color:#d1e0d0;
+}
+#caritem2 {
+  color:#426bf4;
+}
+
+#overview{
+  background:#f7f7f7;
+  padding: 30px;
+  width:100%;
+  height:auto;
+}
+
+#apps{
+  background: #f7f7f7;
+  padding: 30px;
+  width:100%;
+  height:auto;
+}
+
+#login{
+  backgroud: white;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#overview img, #apps img{
+  max-width: 100%;
+}
+
+#mission{
+  padding: 30px;
+  width:100%;
+  height:auto;
+}
+
+#apps{
+  background: #f7f7f7;
+  padding: 30px;
+  width:100%;
+  height:auto;
+}
+
+
+.absolute-div {
+      display: block;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #ffff00;
+  border: none;
+  color: #ff0000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  margin: 5px;
+}
+
+.form {
+  background-color:#CDD3D5;
+  padding: 40px;
+  max-width:600px;
+  margin:40px auto;
+  border-radius:4px;
+}
+
+.field-wrap {
+  position:relative;
+  margin-bottom:40px;
+}
+
+#signup {
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:15px 0;
+  font-size:2rem;
+  font-weight:600;
+  letter-spacing:.1em;
+  background:#ffff66;
+  color:#4B7680;
+}
+
+.button-block {
+  display:block;
+  width:100%;
+}
+
+input, textarea {
+  font-size:22px;
+  display:block;
+  width:100%;
+  height:100%;
+  padding:5px 10px;
+  background:none;
+  background-image:none;
+  border:1px solid #90AFC5;
+  border-radius:0;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  position:relative;
+  width:100%;
+  bottom:0;
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+.news-content{
+  margin:0px;
+  padding:0px;
+}
+#news-image{
+  height: 400px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 10px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  border-radius:0px;
+}
